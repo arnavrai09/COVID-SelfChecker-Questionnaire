@@ -1,0 +1,66 @@
+/* PatientForm.module.css */
+.header {
+    background-color: #1e81b0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formField {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formField label {
+    flex-shrink: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.formField select {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submitButton {
+    background-color: #1e81b0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #4caf50;
+}
